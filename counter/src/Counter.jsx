@@ -1,9 +1,15 @@
 
+
+
 function App() {
 
   return (
-    <h1>Counter</h1>
+    <div>
+      <h1>Counter {counter}</h1>
+    </div>
+
   )
+
 }
 
 export default App
