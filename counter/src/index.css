@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-color: bisque;
+    color: olive;
+    font-family: 'Nunito', sans-serif;
+}
+
+.counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+.counter-wrapper input {
+    width: 200px;
+}
+
+.counter-wrapper button {
+    width: 100px;
+}
+
+.counter-wrapper input,
+.counter-wrapper button {
+    margin-block: 0.5rem;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.increment-input button,
+.decrement-input button {
+    margin-left: 10px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 1px 1px grey;
+}
